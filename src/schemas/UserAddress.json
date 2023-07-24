@@ -1,0 +1,32 @@
+{
+  "type": "object",
+  "properties": {
+    "line1": {
+      "type": "string"
+    },
+    "line2": {
+      "type": "string"
+    },
+    "zipcode": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}$"
+    }
+  },
+  "required": [
+    "line1",
+    "line2",
+    "zipcode",
+    "city",
+    "state",
+    "country"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "properties": {
+    "docs": {
+      "type": "array",
+      "items": {
+        "$ref": "UserInList.json"
+      }
+    },
+    "page": {
+      "type": "number"
+    },
+    "limit": {
+      "type": "number"
+    },
+    "total": {
+      "type": "number"
+    },
+    "maxPage": {
+      "type": "number"
+    }
+  }
+}
